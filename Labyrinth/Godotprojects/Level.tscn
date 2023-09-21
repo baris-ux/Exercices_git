@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dagxdddxptcnl"]
+
+[ext_resource type="Texture2D" uid="uid://bekiteew2f7rn" path="res://Player/archer/Archer.png" id="1_13i7j"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_yg003"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_13i7j")
+script = ExtResource("2_yg003")
